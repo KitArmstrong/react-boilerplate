@@ -1,3 +1,27 @@
+# React Boilerplate Application
+A React boilerplate application using Create React App, Redux, and Docker. This application containers a make file that provides commands to easily work with the Docker containers.
+
+#### **Requirements**
+* Docker
+
+#### **Installation/Running**
+* Clone this repo
+* From the root run ```make development``` this will create a development image and run the container
+* Visit [localhost:3000](localhost:3000)
+
+#### **Development**
+The docker container creates a volume that links to the 'src' and 'public' folders. Complete all work locally and the Docker container will still maintain hot-reloading.
+
+#### **Production Build**
+There are two ways to create a production build, one with a build folder and one as a Docker image.
+Build Folder
+* Run the command ```npm run build``` and a 'build' folder will be created
+
+Docker Image
+* Run the command ```make production``` and this will create a production Docker image
+
+<hr>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
