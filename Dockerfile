@@ -12,6 +12,8 @@ COPY . .
 # Development image
 FROM base as development
 
+EXPOSE 3000
+
 ENTRYPOINT ["npm", "start"]
 
 # Build image
