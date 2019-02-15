@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import { exampleAction } from 'actions/exampleAction';
+import { exampleAction } from '../../actions/exampleAction';
 import logo from '../../resources/images/logo.svg';
 import './App.css';
 

@@ -22,7 +22,7 @@ FROM base as build
 RUN npm run build
 
 # Production image 
-FROM nginx:alpine
+FROM nginx:alpine as production
 
 COPY --from=build /app/build /usr/share/nginx/html
 
