@@ -8,7 +8,7 @@ A React boilerplate application using Create React App, Redux, and Docker. This 
 #### **Installation/Running**
 * Clone this repo
 * From the root run ```make development``` this will create a development image and run the container
-* Visit [localhost:3000](localhost:3000)
+* Visit [http://localhost:3000](http://localhost:3000)
 
 You can change the exposed port and application name used in the Docker images and containers by changing the configuration variables in .config/config.env.
 
