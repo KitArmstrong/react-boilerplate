@@ -1,5 +1,5 @@
 # React Boilerplate Application
-A React boilerplate application using Create React App, Redux, and Docker. This application containers a make file that provides commands to easily work with the Docker containers.
+A React boilerplate application using Create React App, Redux, and Docker. This application contains a make file that provides commands to easily work with the Docker containers.
 
 #### **Requirements**
 * Docker
